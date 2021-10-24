@@ -4,6 +4,7 @@
   "description": "Converts an CSS selector or rule into nested SCSS",
   "version": "0.0.1",
   "icon": "images/icon.png",
+  "publisher": "Babobski",
   "galleryBanner": {
 		"color": "#FFFFFF",
 		"theme": "light"
