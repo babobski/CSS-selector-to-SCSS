@@ -10,14 +10,19 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:css-selector-to-scss.ConvertFromClipboard"
+    "onCommand:css-selector-to-scss.ConvertSelectorFromClipboard",
+    "onCommand:css-selector-to-scss.ConvertRuleFromClipboard"
   ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "css-selector-to-scss.ConvertFromClipboard",
-        "title": "Convert to SCSS from clipboard"
+        "command": "css-selector-to-scss.ConvertSelectorFromClipboard",
+        "title": "Convert CSS selector to SCSS from clipboard"
+      },
+      {
+        "command": "css-selector-to-scss.ConvertRuleFromClipboard",
+        "title": "Convert CSS rule to SCSS from clipboard"
       }
     ]
   },
