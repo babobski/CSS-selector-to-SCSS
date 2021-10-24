@@ -1,14 +1,24 @@
 {
   "name": "css-selector-to-scss",
   "displayName": "CSS selector to SCSS",
-  "description": "",
+  "description": "Converts an CSS selector or rule into nested SCSS",
   "version": "0.0.1",
+  "icon": "images/icon.png",
+  "galleryBanner": {
+		"color": "#FFFFFF",
+		"theme": "light"
+	},
   "engines": {
     "vscode": "^1.61.0"
   },
   "categories": [
-    "Other"
+    "Other",
+    "Formatters"
   ],
+  "repository": {
+		"type": "git",
+		"url": "https://github.com/babobski/CSS-selector-to-SCSS"
+	},
   "activationEvents": [
     "onCommand:css-selector-to-scss.ConvertSelectorFromClipboard",
     "onCommand:css-selector-to-scss.ConvertRuleFromClipboard"
