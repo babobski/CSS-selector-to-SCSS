@@ -1,6 +1,6 @@
 # CSS selector to SCSS
 
-This extensions allows you to convert CSS selectors or rules to SCSS.
+This extensions allows you to convert CSS selectors or rules to SCSS.  
 It works with the clipboard values you would get form:
 
 ![Copy rule or selector](images/copy-selector-or-rule-in-chrome.jpg)
