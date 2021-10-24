@@ -6,9 +6,9 @@
   "icon": "images/icon.png",
   "publisher": "Babobski",
   "galleryBanner": {
-		"color": "#FFFFFF",
-		"theme": "light"
-	},
+    "color": "#FFFFFF",
+    "theme": "light"
+  },
   "engines": {
     "vscode": "^1.61.0"
   },
@@ -17,9 +17,9 @@
     "Formatters"
   ],
   "repository": {
-		"type": "git",
-		"url": "https://github.com/babobski/CSS-selector-to-SCSS"
-	},
+    "type": "git",
+    "url": "https://github.com/babobski/CSS-selector-to-SCSS"
+  },
   "activationEvents": [
     "onCommand:css-selector-to-scss.ConvertSelectorFromClipboard",
     "onCommand:css-selector-to-scss.ConvertRuleFromClipboard"
@@ -48,7 +48,7 @@
   "devDependencies": {
     "@types/glob": "^7.1.4",
     "@types/mocha": "^9.0.0",
-    "@types/node": "14.x",
+    "@types/node": "^12.11.7",
     "@types/vscode": "^1.61.0",
     "@typescript-eslint/eslint-plugin": "^4.31.1",
     "@typescript-eslint/parser": "^4.31.1",
