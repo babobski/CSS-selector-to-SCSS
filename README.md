@@ -1,6 +1,6 @@
 # CSS selector to SCSS
 
-This extensions allows you to convert CSS selectors or rules to SCSS.  
+This extensions allows you to convert CSS selectors or rules into nested SCSS.  
 It works with the clipboard values you would get from:
 
 ![Copy rule or selector](images/copy-selector-or-rule-in-chrome.jpg)
@@ -54,3 +54,7 @@ Will result in:
     }
 }
 ```
+
+## Limitations
+Currently the plugin only supports single line rules and selectors.  
+If a rule or selector contains `,` only the first part will be processed.
