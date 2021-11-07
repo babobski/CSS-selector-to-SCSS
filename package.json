@@ -2,7 +2,7 @@
   "name": "css-selector-to-scss",
   "displayName": "CSS selector to SCSS",
   "description": "Converts an CSS selector or rule into nested SCSS",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "icon": "images/icon.png",
   "publisher": "Babobski",
   "galleryBanner": {
