@@ -107,7 +107,8 @@ let convertSelectorToSnippet = (clipText: string, callback: (() => void)) => {
 				'first-line',
 				'marker',
 				'selection',
-				'placeholder'
+				'placeholder',
+				'placeholder-shown'
 			];
 
 			const PseudoStartsWithList = [
